@@ -1,6 +1,6 @@
-## Lesson-11
+## Lesson-13
 
-Finally we update our sign-in component with our email/password sign in.
+Let's update our app so that after a user signs-in they are redirected to the home page, also if a user is signed into our application, we don't want them to be able to access the signinandsignup page.
 
 # How to fork and clone
 
