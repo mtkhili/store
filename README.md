@@ -1,6 +1,7 @@
-## Lesson-13
+## Lesson-19
 
-Let's update our app so that after a user signs-in they are redirected to the home page, also if a user is signed into our application, we don't want them to be able to access the signinandsignup page.
+Now that we have our cart, it's time to create our checkout page. We need a checkout component for the page and our checkout-item component. We're going to connect the page to our cart reducer; we're also going to make a selector to get the total price.
+
 
 # How to fork and clone
 
