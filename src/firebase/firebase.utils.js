@@ -7,7 +7,7 @@ const config = {
   authDomain: "store-99edb.firebaseapp.com",
   databaseURL: "https://store-99edb.firebaseio.com",
   projectId: "store-99edb",
-  storageBucket: "store-99edb.appspot.com",
+  storageBucket: "",
   messagingSenderId: "822154713138",
   appId: "1:822154713138:web:940aed375ea92cdb9c442b"
 };

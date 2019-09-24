@@ -5,7 +5,7 @@ const INITIAL_STATE = {
 };
 
 const shopReducer = (state = INITIAL_STATE, action) => {
-  switch (action.type) { //we just pass type even we dont have any action
+  switch (action.type) {
     default:
       return state;
   }

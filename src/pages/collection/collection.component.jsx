@@ -21,9 +21,8 @@ const CollectionPage = ({ collection }) => {
   );
 };
 
-const mapStateToProps = (state, ownProps) => 
-({ // : props of the component CollectionPage
-  collection: selectCollection(ownProps.match.params.collectionId)(state) //pass state to use in other selector
+const mapStateToProps = (state, ownProps) => ({
+  collection: selectCollection(ownProps.match.params.collectionId)(state)
 });
 
 export default connect(mapStateToProps)(CollectionPage);
